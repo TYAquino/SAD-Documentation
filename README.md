@@ -1,6 +1,6 @@
 # EEFCI School Managament System
 
-![Project Banner] (images/school-logo.png)
+![Project Banner](images/school-logo.png)
 
 This document details the development of a School Management System (SMS) designed to simplify student registration and deliver an intuitive web interface using React and SQL. The system enhances operational efficiency, improves user experience, and supports the administrative functions of educational institutions.
 
