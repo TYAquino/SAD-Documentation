@@ -1,5 +1,4 @@
 # EEFCI School Managament System
-
 This document details the development of a School Management System (SMS) designed to simplify student registration and deliver an intuitive web interface using React and SQL. The system enhances operational efficiency, improves user experience, and supports the administrative functions of educational institutions.
 
 ## Current System
@@ -23,15 +22,13 @@ This document details the development of a School Management System (SMS) design
 - Reporting: Generate reports on registration statistics, student demographics, and other key metrics.
 - User Management: Control access levels and permissions for different user roles (e.g., administrators, teachers)
 
+## Advantages of Proposed System
+The proposed School Management System (SMS) revolutionizes student registration and elevates the user experience through a modern, web-based platform. By implementing this system, institutions will benefit from:
+- Streamlined operations (reduced manual workload)
+- Enhanced data management (secure, centralized, and scalable)
+- Improved communication (real-time updates for staff, students, and parents)
 
-
-```bash
-npm install my-project
-# or
-git clone https://github.com/yourusername/repo.git
-```
-
-## Usage
+## Tech stack/Usage
 ```javascript
 const example = require('example');
 example.doSomething();
