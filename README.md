@@ -82,4 +82,4 @@ const AdminPage = () => {
 
 ## Documentation
 Full documentation available at:    
-[📂 Local Docs](/docs/README.md)
+[📂 Local Docs](/SAD_Documentation/)
