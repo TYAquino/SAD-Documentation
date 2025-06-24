@@ -1,12 +1,17 @@
 # EEFCI School Managament System
+
+![Project Banner] (images/school-logo.png)
+
 This document details the development of a School Management System (SMS) designed to simplify student registration and deliver an intuitive web interface using React and SQL. The system enhances operational efficiency, improves user experience, and supports the administrative functions of educational institutions.
 
 ## Current System
+
 - Excel files for data organization.
 - Facebook for communication and school information.
 - Google Forms for student registration
 
 ## Proposed System
+
 - **Online Registration Form:** An easy-to-fill, online registration form for new students.
 - **Document Upload:** Secure upload feature for necessary documents (e.g., birth certificate, previous school records).
 - **Automated Verification:** Automated system for verifying submitted documents and data.
@@ -23,13 +28,17 @@ This document details the development of a School Management System (SMS) design
 - **User Management:** Control access levels and permissions for different user roles (e.g., administrators, teachers)
 
 ## Advantages of Proposed System
+
 The proposed School Management System (SMS) revolutionizes student registration and elevates the user experience through a modern, web-based platform. By implementing this system, institutions will benefit from:
+
 - Streamlined operations (reduced manual workload)
 - Enhanced data management (secure, centralized, and scalable)
 - Improved communication (real-time updates for staff, students, and parents)
 
 ## Code Snipets
+
 **PRISMA SQL**
+
 ```sql
 model User {
   id           Int         @id @default(autoincrement())
@@ -40,12 +49,14 @@ model User {
   createdAt    DateTime    @default(now())
 
   student     Student?    @relation("UserToStudent")
-  
+
   // Notifications
   notifications Notification[]
 }
 ```
+
 **JavaScript**
+
 ```javascript
 const AdminPage = () => {
   return (
@@ -81,5 +92,6 @@ const AdminPage = () => {
 ```
 
 ## Documentation
-Full documentation available at:    
-[📂 Local Docs](/SAD-Documentation/SAD_Documentation.pdf)
+
+Full documentation available at:  
+[📂 Software Analysis and Design Project Documentation](/docs/SAD_Documentation.pdf)
